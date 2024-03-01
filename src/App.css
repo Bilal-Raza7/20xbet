@@ -1,0 +1,12 @@
+.grad {
+  font-family: "stolzl", sans-serif;
+  font-size: 120px;
+  letter-spacing: -0.03em;
+  line-height: 1.25em;
+  font-weight: 500;
+  position: relative;
+  color: transparent;
+  background: linear-gradient(120deg, #ff0f7b 0%, #f89b29 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}

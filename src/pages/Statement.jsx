@@ -5,17 +5,11 @@ const Statement = () => {
     <>
       <div className="container m-6">
         <div className="overflow-x-auto">
+          <p className="text-lg xl:text-4xl lg:text-3xl md:text-2xl sm:text-sm text-center text-base-400 font-bold my-3">
+            My Statement
+          </p>
           <table className="table-xs xl:table lg:table md:table-md sm:table-sm">
             {/* head */}
-            <thead>
-              <tr>
-                <th></th>
-                {/* <th></th> */}
-                <th className="text-md xl:text-4xl lg:text-3xl md:text-2xl sm:text-sm text-end">
-                  My Statement
-                </th>
-              </tr>
-            </thead>
             <thead>
               <tr className="text-lg">
                 <th>Date</th>

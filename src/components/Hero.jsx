@@ -7,13 +7,8 @@ import Marquee from "react-fast-marquee";
 const Hero = () => {
   return (
     <>
-      <Marquee
-        pauseOnHover={true}
-        speed={100}
-        className="text-7xl"
-        autoFill={true}
-      >
-        <p className="grad">Welcome To 20xBet &nbsp;</p>
+      <Marquee pauseOnHover={true} speed={100} className="my-0" autoFill={true}>
+        <p className="grad ">Welcome To 20xBet &nbsp;</p>
       </Marquee>
       <div className="container w-full">
         <div className="m-6 grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 gap-3">
